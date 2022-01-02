@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid {
+      border: 5px solid pink;
+      display: grid;
+      /*display는 어떤 태그가 표시되는 방법을 완전히 바꾸는 매우 중요한 속성임*/
+      grid-template-columns: 150px 1fr 2fr 1fr;
+      /* fr은 남은 공간 중 차지하는 비율을 뜻한다. 유동적으로 변할 수 있다*/
+      }
+      div {
+        border: 5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>Naver</div>
+      <div>Google</div>
+      <div>Daum</div>
+      <div>Kakao</div>
+    </div>
+      <!--
+      div는 block level element가 필요할 때
+      span은 inline element가 필요할 때
+      -->
+  </body>
+</html>

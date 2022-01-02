@@ -1,21 +1,64 @@
 <!doctype html>
 <html>
   <head>
-    <title>League of legend</title>
+    <title>Diablo4.</title>
     <meta charset="utf-8">
+    <style>
+    h1 {
+      font-size: 50px;
+      border-bottom: 1px solid gray;
+      padding: 30px;
+      margin: 0px;
+      text-align: center;
+    }
+    #grid ol {
+      border-right: 1px solid gray;
+      width: 120px;
+      list-style: disc;
+      margin: 0px;
+      padding: 37px;
+      padding-top: 18px;
+    }
+    h2, h3{
+      text-align: center;
+    }
+    #grid {
+      display: grid;  /* display-grid 지정이 첫번째!!! */
+      grid-template-columns: 200px 1fr;
+    }
+    #context {
+      padding: 30px;
+    }
+    @media(max-width: 800px) {
+        #grid {
+          display: block;
+        }
+        #grid ol {
+          border-right:none;
+        }
+        h1 {
+          border-bottom: none;
+        }
+    }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">BLIZZARD</a></h1>
-
-    <ol>
-        <li><a href="1.html">Overwatch</a></li>
-        <li><a href="2.html">League of legend</a></li>
-        <li><a href="3.html">Hearthstone</a></li>
-    </ol>
-    <h2>League of legend</h2>
-    <h2>소환사의 협곡에 오신 것을 환영합니다.</h2>
-    <p>Hey guys!</p>
-    Welcome to the <strong><u>League of legend</u></strong> and join the event!
+    <div id="grid">
+      <ol>
+          <li><a href="1.html">Overwatch</a></li>
+          <li><a href="2.html">Diablo4.</a></li>
+          <li><a href="3.html">Hearthstone</a></li>
+      </ol>
+      <div id="context">
+          <h2>Diablo4.</h2>
+          <h3>디아블로에 오신 것을 환영합니다.</h3>
+              <p align="middle">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/XUuSxAC5tx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </p>
+              Diablo IV is an upcoming dungeon crawler action role-playing game developed and published by Blizzard Entertainment, the fourth title in the Diablo series. The game was announced at BlizzCon 2019 on November 1, 2019 for Microsoft Windows, PlayStation 4, and Xbox One.[2][3][4] A release date has not been announced by Blizzard Entertainment; however, it has been confirmed that the game will not be released in 2022.[5] Series features such as re-playable, procedurally generated dungeons, and loot-focused character-building are returning, while new features such as an open world, and player versus player (PVP) interactions are incorporated.[6] Four playable classes have been announced – Barbarian, Sorceress, Druid, and Rogue – all of which have appeared in the series.[7] Players guide their character through quests and combat in the world of Sanctuary as the once banished Lilith returns to wreak havoc.
+      </div>
+    </div>
   </body>
 </html>
