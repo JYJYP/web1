@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    .js{
+      font-weight: bold;
+    }
+    #first{
+      color:green;
+    }
+  </style>
+</head>
+
+  <body>
+    <h2 style="background-color:coral;color:powderblue">배고파아아악</h2>
+
+<div id="cat">
+    <!-- <div>는 한 줄 전체에 적용됨, <span> 특정 부위에만 적용 가능 -->
+
+    The <span id="first" class="js">cat</span> is a domestic species of small carnivorous mammal.[1][2] It is the only domesti<span class="js">cat</span>ed species in the family Felidae and is often referred to as the domestic <span class="js">cat</span> to distinguish it from the wild members of the family.[4] A <span class="js">cat</span> can either be a house <span class="js">cat</span>, a farm <span class="js">cat</span> or a feral <span class="js">cat</span>; the latter ranges freely and avoids human contact.[5] Domestic <span class="js">cat</span>s are valued by humans for companionship and their ability to kill rodents. About 60 <span class="js">cat</span> breeds are recognized by various <span class="js">cat</span> registries.[6]
+
+    The <span class="js">cat</span> is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. <span class="js">cat</span> communi<span class="js">cat</span>ion includes vocalizations like meowing, purring, trilling, hissing, growling and grunting as well as <span class="js">cat</span>-specific body language. A predator that is most active at dawn and dusk (crepuscular), the <span class="js">cat</span> is a solitary hunter but a social species. It can hear sounds too faint or too high in frequency for human ears, such as those made by mice and other small mammals.[7] <span class="js">cat</span>s also secrete and perceive pheromones.[8]
+
+    Female domestic <span class="js">cat</span>s can have kittens from spring to late autumn, with litter sizes often ranging from two to five kittens.[9] Domestic <span class="js">cat</span>s are bred and shown at events as registered pedigreed <span class="js">cat</span>s, a hobby known as <span class="js">cat</span> fancy. Population control of <span class="js">cat</span>s may be effected by spaying and neutering, but their proliferation and the abandonment of pets has resulted in large numbers of feral <span class="js">cat</span>s worldwide, contributing to the extinction of entire bird, mammal, and reptile species.[10]
+
+    <span class="js">cat</span>s were first domesti<span class="js">cat</span>ed in the Near East around 7500 BC.[11] It was long thought that <span class="js">cat</span> domesti<span class="js">cat</span>ion began in ancient Egypt, where <span class="js">cat</span>s were venerated from around 3100 BC.[12][13] As of 2021, there are an estimated 220 million owned and 480 million stray <span class="js">cat</span>s in the world.[14][15] As of 2017, the domestic <span class="js">cat</span> was the second-most popular pet in the United States, with 95 million <span class="js">cat</span>s owned.[16][17][18] In the United Kingdom, 26% of adults have a <span class="js">cat</span> with an estimated population of 10.9 million pet <span class="js">cat</span>s as of 2020.[19]
+  </div>
+
+  <p>
+  <button onclick="changeColor('pink');">바꾸기</button>
+  <button onclick="changeColor('black');">원래대로</button>
+  </p>
+<!-- 이게 아닌데.....ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅁㄹㅇㄴㅁ><-->
+  <script>
+    function changeColor(newColor) {
+      var cat = document.querySelector('#cat');
+      cat.style.color = newColor;
+    }
+  </script>
+  </body>
+</html>
